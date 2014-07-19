@@ -18,10 +18,10 @@ GPIO.setup(18, GPIO.OUT)
 #while True:
 
 def tweet(filename):
-    consumer_key = 'ACNq06IuOaApzHGHzJes4XIfz'
-    consumer_secret = '3bzuG0HuyUcEd5iiaM8ifO7PTajilqy0XvDVjoZUqZZF3dGQtL'
-    access_token = '2647226370-b4eJ4Inm4dRbRXFpdwDTbYNpjoRgroit4AQL2Hs'
-    access_token_secret = 'uLUs6bNRwQtWjhfM8FciROvGTAlPRUGVSF1Yn984id4wu'
+    consumer_key = '#API Key from apps.twitter.com'
+    consumer_secret = '#API Secret from apps.twitter.com'
+    access_token = '#access token from apps.twitter.com'
+    access_token_secret = '#access token secret from apps.twitter.com'
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
